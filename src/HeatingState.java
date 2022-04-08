@@ -20,10 +20,6 @@ public class HeatingState extends State{
     }
 
     @Override
-    public void changeModeButtonPressed() {
-     }
-
-    @Override
     public void increaseTempButtonPressed() {
 
         if (ac.getPower() == 0) {
@@ -50,11 +46,11 @@ public class HeatingState extends State{
 
     @Override
     public void powerButtonPressed() {
-        if (ac.getTemp() <= 21) {
+/*        if (ac.getTemp() <= 21) {
             setState(humidifierOffState);
         } else if (ac.getTemp() >= 22) {
             setState(humidifierOnState);
-        }
+        }*/
     }
 
     public String toString() {

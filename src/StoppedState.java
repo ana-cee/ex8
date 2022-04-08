@@ -19,15 +19,6 @@ public class StoppedState extends State{
     }
 
     @Override
-    public void increaseTempButtonPressed() {
-
-    }
-
-    @Override
-    public void decreaseTempButtonPressed() {
-    }
-
-    @Override
     public void powerButtonPressed() {
         power = (power == 0)? 1: 0;
         if (power == 1) {

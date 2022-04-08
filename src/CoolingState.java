@@ -23,11 +23,6 @@ public class CoolingState extends State{
     }
 
     @Override
-    public void changeModeButtonPressed() {
-
-    }
-
-    @Override
     public void increaseTempButtonPressed() {
         if (ac.getPower() == 0) {
             System.out.println(ac.getName() + ": no decrease of temp since system is off");

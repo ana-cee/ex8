@@ -7,22 +7,8 @@ public class DehumidifierOffState extends State {
         super();
         this.cooling = cooling;
     }
-    public void changeModeButtonPressed() {
 
-    }
-
-    public void increaseTempButtonPressed() {
-
-    }
-
-    public void decreaseTempButtonPressed() {
-
-    }
-
-    public void powerButtonPressed() {
-
-    }
     public String toString() {
-        return "dehumidifier off";
+        return "dehumidifier is off";
     }
 }

@@ -7,21 +7,7 @@ public class HumidifierOffState extends State{
         super();
         this.heating = heating;
     }
-    public void changeModeButtonPressed() {
 
-    }
-
-    public void increaseTempButtonPressed() {
-
-    }
-
-    public void decreaseTempButtonPressed() {
-
-    }
-
-    public void powerButtonPressed() {
-
-    }
     public String toString() {
         return "humidifier is off";
     }
